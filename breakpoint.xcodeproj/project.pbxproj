@@ -15,6 +15,7 @@
 		B6B17A461FEFDFB4007EDDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B17A451FEFDFB4007EDDA2 /* Assets.xcassets */; };
 		B6B17A491FEFDFB4007EDDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B17A471FEFDFB4007EDDA2 /* LaunchScreen.storyboard */; };
 		B6B17A561FEFE29C007EDDA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6B17A551FEFE29C007EDDA2 /* GoogleService-Info.plist */; };
+		B6B17A581FEFE570007EDDA2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A571FEFE570007EDDA2 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B6B17A481FEFDFB4007EDDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B17A4A1FEFDFB4007EDDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B17A551FEFE29C007EDDA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6B17A571FEFE570007EDDA2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		F11698725C3566B25BD154C0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFDB97932B068238893067 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +132,7 @@
 		B6B17A541FEFE051007EDDA2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B6B17A571FEFE570007EDDA2 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				B6B17A411FEFDFB4007EDDA2 /* SecondViewController.swift in Sources */,
 				B6B17A3D1FEFDFB4007EDDA2 /* AppDelegate.swift in Sources */,
 				B6B17A3F1FEFDFB4007EDDA2 /* FirstViewController.swift in Sources */,
+				B6B17A581FEFE570007EDDA2 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
