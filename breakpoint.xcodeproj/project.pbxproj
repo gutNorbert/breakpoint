@@ -27,6 +27,7 @@
 		B6B17A6A1FF3CF5A007EDDA2 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */; };
 		B6B17A6C1FF3D184007EDDA2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A6B1FF3D184007EDDA2 /* Message.swift */; };
 		B6BF4E3D1FF42864003EBF46 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E3C1FF42864003EBF46 /* CreateGroupsVC.swift */; };
+		B6BF4E3F1FF430AC003EBF46 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E3E1FF430AC003EBF46 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		B6B17A6B1FF3D184007EDDA2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		B6BF4E3C1FF42864003EBF46 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
+		B6BF4E3E1FF430AC003EBF46 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		F11698725C3566B25BD154C0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFDB97932B068238893067 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				B6B17A5D1FF00036007EDDA2 /* InsetTextField.swift */,
 				B6B17A5F1FF003D5007EDDA2 /* ShadowView.swift */,
 				B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */,
+				B6BF4E3E1FF430AC003EBF46 /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				B6B17A5C1FEFFF5B007EDDA2 /* LoginVC.swift in Sources */,
 				B6B17A621FF006A7007EDDA2 /* AuthService.swift in Sources */,
 				B6BF4E3D1FF42864003EBF46 /* CreateGroupsVC.swift in Sources */,
+				B6BF4E3F1FF430AC003EBF46 /* UserCell.swift in Sources */,
 				B6B17A3D1FEFDFB4007EDDA2 /* AppDelegate.swift in Sources */,
 				B6B17A601FF003D5007EDDA2 /* ShadowView.swift in Sources */,
 				B6B17A661FF2CF1C007EDDA2 /* CreatePostVC.swift in Sources */,
