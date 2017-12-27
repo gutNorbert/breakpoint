@@ -132,7 +132,7 @@
                                     <constraint firstItem="pwY-cj-SLI" firstAttribute="top" secondItem="UI8-i9-PVQ" secondAttribute="top" constant="30" id="v2W-gm-Rf1"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="027-Q1-syn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="027-Q1-syn">
                                 <rect key="frame" x="16" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="3iu-K7-kw5"/>
