@@ -24,6 +24,7 @@
 		B6B17A641FF131E9007EDDA2 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A631FF131E9007EDDA2 /* MeVC.swift */; };
 		B6B17A661FF2CF1C007EDDA2 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A651FF2CF1C007EDDA2 /* CreatePostVC.swift */; };
 		B6B17A681FF2D309007EDDA2 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A671FF2D309007EDDA2 /* UIViewExt.swift */; };
+		B6B17A6A1FF3CF5A007EDDA2 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B6B17A631FF131E9007EDDA2 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		B6B17A651FF2CF1C007EDDA2 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		B6B17A671FF2D309007EDDA2 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		F11698725C3566B25BD154C0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFDB97932B068238893067 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +135,7 @@
 			children = (
 				B6B17A5D1FF00036007EDDA2 /* InsetTextField.swift */,
 				B6B17A5F1FF003D5007EDDA2 /* ShadowView.swift */,
+				B6B17A691FF3CF5A007EDDA2 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B17A681FF2D309007EDDA2 /* UIViewExt.swift in Sources */,
+				B6B17A6A1FF3CF5A007EDDA2 /* FeedCell.swift in Sources */,
 				B6B17A641FF131E9007EDDA2 /* MeVC.swift in Sources */,
 				B6B17A5A1FEFFE5F007EDDA2 /* AuthVC.swift in Sources */,
 				B6B17A411FEFDFB4007EDDA2 /* GroupsVC.swift in Sources */,
