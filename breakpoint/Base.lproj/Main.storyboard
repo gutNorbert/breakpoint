@@ -709,7 +709,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gwn-sf-npE">
-                                <rect key="frame" x="0.0" y="103" width="375" height="496"/>
+                                <rect key="frame" x="0.0" y="103" width="375" height="504"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupFeedCell" rowHeight="100" id="Qbd-M7-adz" customClass="GroupFeedCell" customModule="breakpoint" customModuleProvider="target">
@@ -813,12 +813,12 @@
                             <constraint firstItem="WNn-l2-DUI" firstAttribute="leading" secondItem="43P-Vn-Vag" secondAttribute="leading" constant="8" id="3t6-8g-qTB"/>
                             <constraint firstItem="phE-hT-QqJ" firstAttribute="trailing" secondItem="43P-Vn-Vag" secondAttribute="trailing" id="DCt-KQ-EnC"/>
                             <constraint firstItem="43P-Vn-Vag" firstAttribute="trailing" secondItem="WNn-l2-DUI" secondAttribute="trailing" id="LDf-Td-i4A"/>
+                            <constraint firstItem="phE-hT-QqJ" firstAttribute="top" secondItem="gwn-sf-npE" secondAttribute="bottom" id="YBU-cH-ghN"/>
                             <constraint firstItem="gwn-sf-npE" firstAttribute="leading" secondItem="43P-Vn-Vag" secondAttribute="leading" id="Yfk-W7-Wl4"/>
                             <constraint firstItem="gwn-sf-npE" firstAttribute="trailing" secondItem="43P-Vn-Vag" secondAttribute="trailing" id="ZOj-ab-Usa"/>
                             <constraint firstItem="phE-hT-QqJ" firstAttribute="bottom" secondItem="43P-Vn-Vag" secondAttribute="bottom" id="d8N-hP-k7O"/>
                             <constraint firstItem="EYg-Ne-n6o" firstAttribute="top" secondItem="M2m-MI-KvY" secondAttribute="top" id="egv-zm-ja6"/>
                             <constraint firstItem="EYg-Ne-n6o" firstAttribute="leading" secondItem="43P-Vn-Vag" secondAttribute="leading" id="mGQ-U4-IEJ"/>
-                            <constraint firstItem="gwn-sf-npE" firstAttribute="bottom" secondItem="43P-Vn-Vag" secondAttribute="bottom" constant="-68" id="r4x-fX-XgD"/>
                             <constraint firstItem="EYg-Ne-n6o" firstAttribute="trailing" secondItem="43P-Vn-Vag" secondAttribute="trailing" id="rNa-Dr-r3Z"/>
                             <constraint firstItem="WNn-l2-DUI" firstAttribute="top" secondItem="EYg-Ne-n6o" secondAttribute="bottom" constant="8" id="sxb-0a-9xN"/>
                             <constraint firstItem="gwn-sf-npE" firstAttribute="top" secondItem="WNn-l2-DUI" secondAttribute="bottom" constant="8" id="yzg-Hq-lLV"/>
@@ -827,6 +827,7 @@
                     </view>
                     <connections>
                         <outlet property="groupTitleLabel" destination="s8f-vF-eEt" id="wht-Yt-6yY"/>
+                        <outlet property="mainView" destination="M2m-MI-KvY" id="Fcb-jM-8OG"/>
                         <outlet property="membersLbl" destination="WNn-l2-DUI" id="SSV-Yt-9tZ"/>
                         <outlet property="messageTextField" destination="uF8-kq-wS5" id="Hqp-Ew-4tQ"/>
                         <outlet property="sendBtn" destination="20c-8U-5Hw" id="UEI-dB-d6J"/>
