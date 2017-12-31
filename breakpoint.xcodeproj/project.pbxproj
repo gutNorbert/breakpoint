@@ -32,6 +32,7 @@
 		B6BF4E431FF93565003EBF46 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E421FF93565003EBF46 /* Group.swift */; };
 		B6BF4E451FF93EF1003EBF46 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E441FF93EF1003EBF46 /* GroupFeedCell.swift */; };
 		B6BF4E471FF93F99003EBF46 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E461FF93F99003EBF46 /* GroupFeedVC.swift */; };
+		B6BF4E491FF95E70003EBF46 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF4E481FF95E70003EBF46 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		B6BF4E421FF93565003EBF46 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		B6BF4E441FF93EF1003EBF46 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		B6BF4E461FF93F99003EBF46 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		B6BF4E481FF95E70003EBF46 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		F11698725C3566B25BD154C0 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDFDB97932B068238893067 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				B6B17A671FF2D309007EDDA2 /* UIViewExt.swift */,
+				B6BF4E481FF95E70003EBF46 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				B6B17A641FF131E9007EDDA2 /* MeVC.swift in Sources */,
 				B6BF4E411FF92064003EBF46 /* GroupCell.swift in Sources */,
 				B6B17A5A1FEFFE5F007EDDA2 /* AuthVC.swift in Sources */,
+				B6BF4E491FF95E70003EBF46 /* UIViewControllerExt.swift in Sources */,
 				B6B17A411FEFDFB4007EDDA2 /* GroupsVC.swift in Sources */,
 				B6BF4E471FF93F99003EBF46 /* GroupFeedVC.swift in Sources */,
 				B6BF4E451FF93EF1003EBF46 /* GroupFeedCell.swift in Sources */,
