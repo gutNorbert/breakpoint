@@ -878,7 +878,7 @@
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="facebookSignInBtnWasPressed:" destination="fw4-8b-j9X" eventType="touchUpInside" id="JjL-oq-c4Q"/>
+                                                    <action selector="facebookSignInBtnWasPressed:" destination="fw4-8b-j9X" eventType="touchUpInside" id="F9h-l9-O8E"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26v-I7-eQR">

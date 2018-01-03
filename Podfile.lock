@@ -1,4 +1,29 @@
 PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.21)
+    - FBSDKShareKit (~> 4.21)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.0):
+    - FBSDKCoreKit
   - Firebase/Auth (4.3.0):
     - Firebase/Core
     - FirebaseAuth (= 4.2.1)
@@ -44,11 +69,30 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare (from `https://github.com/1amageek/facebook-sdk-swift`)
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
 
+EXTERNAL SOURCES:
+  FacebookShare:
+    :git: https://github.com/1amageek/facebook-sdk-swift
+
+CHECKOUT OPTIONS:
+  FacebookShare:
+    :commit: 3ac76c770e9849285c380f380309d866911d2e93
+    :git: https://github.com/1amageek/facebook-sdk-swift
+
 SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: d086f7a4610bbbca9cec5e774de450a9b3e1a20b
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKLoginKit: 887be4b7452e1c5a3cc4485ce152529965a0c41e
+  FBSDKShareKit: 4f83956d4ca2960730fe7588a168eb8d535c06dc
   Firebase: 83283761a1ef6dc9846e03d08059f51421afbd65
   FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
   FirebaseAuth: d7f047fbeab98062b98ea933b8d934e0fb1190e2
@@ -60,6 +104,6 @@ SPEC CHECKSUMS:
   leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: 814768377d699b7585d924a34c07ca24accbcea2
+PODFILE CHECKSUM: 1812c13869ba4971db6635ba7615aab252d4f7ca
 
 COCOAPODS: 1.2.0

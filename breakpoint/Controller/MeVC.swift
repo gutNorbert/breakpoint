@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FacebookCore
 
 class MeVC: UIViewController {
 
@@ -31,6 +32,10 @@ class MeVC: UIViewController {
         let logoutAction = UIAlertAction(title: "Logout?", style: .destructive) { (buttonTapped) in
             do{
                try Auth.auth().signOut()
+                if fbAccesToken != nil {
+                    AccessToken.current = nil
+                    fbAccesToken = nil
+                }
                 let authVC = self.storyboard?.instantiateViewController(withIdentifier: "AuthVC") as? AuthVC
                 self.present(authVC!, animated: true, completion: nil)
             } catch {
